@@ -1,0 +1,51 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: Arial, Helvetica, sans-serif;
+}
+/* TAG's */
+    input{
+        width: 25px;
+        height: 20px;
+        border: none;
+        border-radius: 3px;
+        text-align: center;
+    }
+    body{
+        background-color: rgb(37, 35, 35);
+        color: white;
+    }
+/* ID's*/
+    #container{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    #text{
+        color: orange;
+        text-shadow: orangered 1px 1px;
+        margin-bottom: 15px;
+        text-align: center;
+    }
+    #square{
+        background-color: cornflowerblue;
+        width: 500px;
+        height: 500px;
+        display: flex;
+        align-content: center;
+        text-align: center;
+        margin-top: 5px;
+        margin-bottom: 5px;
+    }
+    #clipboard{
+        background-color: rgba(255, 255, 255, 0.671);
+        width: 80%;
+        margin: auto;
+    }
+/* Class's */
+    .inputs{
+    display: flex;
+    flex-direction: row;
+    justify-content:space-between;
+    width: 500px;
+    }
